@@ -151,7 +151,7 @@ button:focus-visible,input:focus-visible{outline:2px solid var(--cyan);outline-o
 <div class="app">
   <header class="header">
     <button aria-label="Menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h11M4 17h16"/></svg></button>
-    <span class="brand">Electric Vehicle Testing</span>
+    <span class="brand">ELECTRIC VEHICLE TESTING</span>
     <button aria-label="Filters"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h10M18 7h2M4 17h2M10 17h10"/><circle cx="16" cy="7" r="2"/><circle cx="8" cy="17" r="2"/></svg></button>
   </header>
 
@@ -182,7 +182,7 @@ button:focus-visible,input:focus-visible{outline:2px solid var(--cyan);outline-o
     <button class="round dim" id="backBtn" onclick="back()" aria-label="Back"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m15 6-6 6 6 6"/></svg></button>
     <div class="pill" id="pill" onclick="goNext()" role="button">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="5.5" cy="16" r="3.5"/><circle cx="18.5" cy="16" r="3.5"/><path d="M5.5 16 9 9h7l2.5 7M9 9l3 7h6.5M8 6h3M15 9l1-3h2"/></svg>
-      <span id="pillText">Electric Vehicle Testing</span>
+      <span id="pillText">ELECTRIC VEHICLE TESTING</span>
       <span class="eq"><i></i><i></i><i></i></span>
     </div>
     <button class="round" aria-label="More"><svg viewBox="0 0 24 24" fill="currentColor"><circle cx="5" cy="12" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="19" cy="12" r="2"/></svg></button>
@@ -258,7 +258,7 @@ function updatePill(){
   $('clearBtn').classList.toggle('on', n > 0 && view === 'list');
   var ready = view === 'list' && n > 0;
   $('pill').classList.toggle('ready', ready);
-  $('pillText').textContent = ready ? 'CONTINUE · ' + n + (n === 1 ? ' ITEM' : ' ITEMS') : 'PRODUCT MARKETING';
+  $('pillText').textContent = ready ? 'CONTINUE · ' + n + (n === 1 ? ' ITEM' : ' ITEMS') : 'ELECTRIC VEHICLE TESTING';
 }
 function goNext(){ if (view === 'list' && selected.length) openDetail(); }
 
